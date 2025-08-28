@@ -16,7 +16,7 @@ Connect to a tsl2591 lux sensor via Blinka. The i2c argument should be a Circuit
 ```julia
 using BlinkaBoards
 b = BlinkaBoard()
-lux = LuxSensor(i2c(board))
+lux = LuxSensor(i2c(b))
 ```
 """
 struct LuxSensor
